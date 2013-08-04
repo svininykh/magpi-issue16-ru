@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.1.svn">
-    <DOCUMENT ANZPAGES="3" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="0" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="3" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="4" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="0" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -202,311 +202,371 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="360.080718994141" WIDTH="538.588317871094" HEIGHT="455.919281005859" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 455.919 538.588 455.919 538.588 455.919 538.588 455.919 0 455.919 0 455.919 0 455.919 0 455.919 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 455.919 538.588 455.919 538.588 455.919 538.588 455.919 0 455.919 0 455.919 0 455.919 0 455.919 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="0" BACKITEM="-1">
-            <ITEXT FONTSIZE="11" CH="If you have been using your Raspberry Pi with LEDs and switches from Python and wish to progress to the next level (reading analogue values and adjusting output voltages with PWM) then using an Arduino as a cheap and expandable input/output board is a good option, while still using Python. (You also gain a board that can be used on its own to control robots which you program from your Raspberry Pi). This uses a very safe USB connection allowing the two computers to communicate in both directions. The Arduino provides an extra 14 digital pins (0 – 13), six of which have PWM facilities and six analogue pins (10 bit, range 0-1023, A0-A5) which can also be used as digital I/O pins. An Arduino Uno R3 costs less than your Raspberry Pi and you do not have any soldering to do!"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Preparing the SD card"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="You will need a 4 GB class 4 card (slow). Copy the latest version of Raspbian Wheezy onto it and expand the root partition. Then reboot the Raspberry Pi."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Install setuptools"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="You need python "/>
-            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="setuptools"/>
-            <ITEXT FONTSIZE="11" CH=" to install "/>
-            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="nanpy"/>
-            <ITEXT FONTSIZE="11" CH=" on your card. This is not in the current distribution, however you can download it from the web."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Start the Midori web browser and type in the URL box https://pypi.python.org/pypi/setuptools"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Scroll down to the Linux instructions and then on to the downloads. We want the file"/>
-            <ITEXT CH=":"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" setuptools-0.6c11-py2.7.egg"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Click on it and you will be asked to open or download. Click on SAVE. It downloads very quickly. Once the download has finished, close Midori and you should see the egg file in the pi directory."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Next, open the LX Terminal and type in:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" sudo sh setuptools-0.6c11-py2.7.egg "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="This is a very quick installation."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Install serialpy"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Again, using the Midori web browser go to https://pypi.python.org/pypi/pyserial"/>
-            <ITEXT CH="."/>
-            <ITEXT FONTSIZE="11" CH=" This time you want to download "/>
-            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="pyserial-2.6.tar.gz"/>
-            <ITEXT CH="."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="However, this time you want to make a "/>
-            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="temp"/>
-            <ITEXT FONTSIZE="11" CH=" folder and move the downloaded file into it - using LXTerminal:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH=" cd temp"/>
-            <tab FONTSIZE="9"/>
-            <ITEXT FONTSIZE="9" CH="# Change to the temp directory   "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" gunzip pyserial-2.6.tar.gz "/>
-            <tab FONTSIZE="9"/>
-            <ITEXT FONTSIZE="9" CH="# to unzip it"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" tar –xvf pyserial-2.6.tar "/>
-            <tab FONTSIZE="9"/>
-            <ITEXT FONTSIZE="9" CH="# to untar it"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" cd pyserial-2.6"/>
-            <tab FONTSIZE="9"/>
-            <ITEXT FONTSIZE="9" CH="# move into the new folder"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" sudo python setup.py install   # to install it"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="The Raspberry Pi can now use serial communication"/>
-            <ITEXT CH="."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Install the Arduino software"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="To begin with, type ‘startx’ to start the GUI (unless you set it to boot into the GUI automatically). Then open the LX Terminal and type in the the following commands:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" sudo apt-get update"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" sudo apt-get install arduino"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Answer ‘Y’ when asked if you want to continue. This installation takes some time…"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="You can now program your Arduino from the Arduino IDE."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Install Nanpy"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="The next step is to download the nanpy files. You could use wget, but I find it much easier to do on a Windows PC and then transfer the unzipped folder to the Raspberry Pi via a memory stick. On a PC, using your web browser, navigate to the git repository https://github.com/nanpy/nanpy and click on the ZIP button. This downloads the zipped directory to your computer. Unzip it and copy the "/>
-            <ITEXT FONTSIZE="11" FCOLOR="Blue" FSHADE="100" CH="nanpy-master  directory"/>
-            <ITEXT FONTSIZE="11" CH=" via a USB stick to your pi directory."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Next, connect your Arduino via a USB cable to the Raspberry Pi. Then open the LX Terminal and navigate to the firmware directory in nanpy-master"/>
-            <ITEXT CH=":"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH=" cd nanpy-master"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" cd firmware"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" export BOARD=uno"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" # (Type ‘make boards’ for a full list)"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" make"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" make upload   # This also takes some time……"/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="This RED section needs to be done each time you connect the Arduino to the Raspberry Pi. It loads the Arduino part of nanpy into the Arduino."/>
-            <ITEXT CH=" Now type:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" cd .."/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# Move back to nanpy-master directory"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" sudo python setup.py install"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="This adds the Raspberry Pi part of nanpy to Python2 and only needs to be done once. You can now use the Arduino as an I/O board for the Raspberry Pi. This adds 20 extra I/O pins – 6 can be used for 10-bit analog inputs (range 0-1023) and 6 as PWM outputs (range 0-255)."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Testing"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="The Arduino really needs to be connected via a powered USB hub so that it does not take too much power from the Raspberry Pi. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="On your Arduino connect an LED in series with a resistor (about 250 Ohm for protection) between pin 10 and ground. The longer lead of the LED, the anode, goes towards pin10 and the shorter, the cathode, towards GND. Pin10 allows PWM (Pulse Width Modulation)."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="From the LXDE GUI on your Raspberry Pi, start LXTerminal once again and type:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" FCOLOR="Black" FSHADE="100" CH=" sudo idle"/>
-            <tab FONT="Monaco Regular" FONTSIZE="9" FCOLOR="Black" FSHADE="100"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="           "/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="With sudo you can run the program from the Run menu in IDLE. Click on File, then New window (to open a new window) and type in the following program:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" #!/usr/bin/env python"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" # LED with 250 Ohm resistor on Pin 10 to GND"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" # Tony Goodhew - 10 May 2013"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" from nanpy import Arduino"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" from nanpy import serial_manager"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" serial_manager.connect('/dev/ttyACM0')    "/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" # serial  connection to Arduino"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" from time import sleep"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" LED =10                     "/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# LED on Arduino Pin 10 (with PWM)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" Arduino.pinMode(LED, Arduino.OUTPUT)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print&quot;Starting&quot;"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print&quot;5 blinks&quot;"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" for i in range(0,5):"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     Arduino.digitalWrite(LED, Arduino.HIGH)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     sleep(0.5)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     Arduino.digitalWrite(LED, Arduino.LOW)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     sleep(0.5)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print&quot;Changing brightness of LED&quot;"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" bright = 128                        "/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# Mid brightness"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" Arduino.analogWrite(LED, bright)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" Arduino.digitalWrite(LED,Arduino.HIGH)       "/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# Turn on LED"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" for i in range(0,200):"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     bright = bright + 8"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     if (bright &gt; 200):"/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# LED already full on at this point"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="         bright = 0"/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# Minimum power to LED"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     Arduino.analogWrite(LED, bright)"/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# Change PWM setting/brightness"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     sleep(0.05)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" Arduino.digitalWrite(LED,Arduino.LOW)       "/>
-            <tab FONT="Monaco Regular" FONTSIZE="9"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="# Turn off LED"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print&quot;Finished&quot;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Save and run the program from the IDLE menu."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Problem:"/>
-            <ITEXT FONTSIZE="11" CH=" If you pull the USB cable out of the Arduino while the Pi is controlling it you may need to re-boot the Raspberry Pi before it will re-connect. You may also need to re-do the instructions in the 'Install Nanpy' section if the firmware gets corrupted."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Reading a single switch"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Digital pins with switches need to be held HIGH (at 5V) or LOW (at 0V) until a switch is closed. When the user closes a switch the voltage of the pin changes to the opposite state - HIGH to LOW or LOW to HIGH. A 10K Ohm resistor is used to 'pull' the pin either HIGH or LOW. This is exactly the same as putting switches directly onto the Raspberry Pi's GPIO pins."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The image below shows the circuit on a breadboard. The wires connect to the Arduino: Red to 5V, black to GND and the green wire to pin8. The following code demonstrates how to read the switch value in Python."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" #!/usr/bin/env python"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" # Button switch on pin 8"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" #       with 10K ohm pull up resistor"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" "/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" from nanpy import Arduino"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" from nanpy import serial_manager"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" serial_manager.connect('/dev/ttyACM0')"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" button = 8         # Switch on pin 8"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" count = 0          # Initialise counter"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" # Set Button pin for input"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" Arduino.pinMode(button, Arduino.INPUT)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print &quot;Press the button 3 times&quot;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" while (count &lt; 3):"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     sw1 = Arduino.digitalRead(button)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     #Wait until switch is pressed"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     while (sw1 == 1):"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="         sw1 = Arduino.digitalRead(button)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     count = count + 1"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     print count"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     #Wait until switch is released"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="     while (sw1 == 0):"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="         sw1 = Arduino.digitalRead(button)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print &quot;Finished&quot;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11" CH="Thanks to Andrea Stagi for the software. See The MagPi, issue 8, page 12"/>
-            <ITEXT CH=" for more details. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The next article will cover reading analogue ports and driving a liquid crystal display (LCD) so make sure to come back for more Nanpy goodness!"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="USB ARDUINO LINK – Part 2"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Last month I wrote about how to set up your Raspberry Pi so that it could communicate with an Arduino via a serial USB cable using Nanpy. In this mode the Raspberry Pi is the master and the Arduino its slave input/output board, providing protection and extra facilities for the master. I listed simple Python digital input and output programs using a button switch and an LED to test the system. I hope you managed to get it working. I am now going into more detail about driving a Liquid Crystal Display and the 6 analogue pins (A0 – A5) on the Arduino, which can read voltages between 0 and 5 volts."/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Using a Liquid Crystal Display (LCD)"/>
+            <para/>
+            <para/>
+            <ITEXT CH="If you have access to a 5 volt 16x2 HD4470 Compatible LCD (currently about £7 from oomlout.co.uk, who have full circuit information on-line, and from other suppliers)."/>
+            <para/>
+            <para/>
+            <ITEXT CH="http://oomlout.com/parts/LCDD-01-guide.pdf"/>
+            <para/>
+            <para/>
+            <ITEXT CH="It is very easy to control via the built in Nanpy LCD library. When running Nanpy, pins 0 &amp;1 of the Arduino are used for communication with the Raspberry Pi; so I connected my LCD to pins 2 to 7."/>
+            <para/>
+            <para/>
+            <ITEXT CH="LCD pin"/>
+            <tab/>
+            <ITEXT CH="Name"/>
+            <tab/>
+            <ITEXT CH="Arduino pin"/>
+            <para/>
+            <ITEXT CH="1"/>
+            <tab/>
+            <ITEXT CH="GND"/>
+            <tab/>
+            <ITEXT CH="GND"/>
+            <para/>
+            <ITEXT CH="2"/>
+            <tab/>
+            <ITEXT CH="Vdd 5v"/>
+            <tab/>
+            <ITEXT CH="5v"/>
+            <para/>
+            <ITEXT CH="3"/>
+            <tab/>
+            <ITEXT CH="Contrast"/>
+            <tab/>
+            <ITEXT CH="10K ohm potentiometer wiper, other pins to 5v &amp; GND"/>
+            <para/>
+            <ITEXT CH="4"/>
+            <tab/>
+            <ITEXT CH="RS"/>
+            <tab/>
+            <ITEXT CH="7       # Not 12"/>
+            <para/>
+            <ITEXT CH="5"/>
+            <tab/>
+            <ITEXT CH="R/W"/>
+            <tab/>
+            <ITEXT CH="GND"/>
+            <para/>
+            <ITEXT CH="6"/>
+            <tab/>
+            <ITEXT CH="Enable"/>
+            <tab/>
+            <ITEXT CH="6       # Not 11"/>
+            <para/>
+            <ITEXT CH="11"/>
+            <tab/>
+            <ITEXT CH="Data 4"/>
+            <tab/>
+            <ITEXT CH="5"/>
+            <para/>
+            <ITEXT CH="12"/>
+            <tab/>
+            <ITEXT CH="Data 5"/>
+            <tab/>
+            <ITEXT CH="4"/>
+            <para/>
+            <ITEXT CH="13"/>
+            <tab/>
+            <ITEXT CH="Data 6"/>
+            <tab/>
+            <ITEXT CH="3"/>
+            <para/>
+            <ITEXT CH="14"/>
+            <tab/>
+            <ITEXT CH="Data 7"/>
+            <tab/>
+            <ITEXT CH="2"/>
+            <para/>
+            <ITEXT CH="15"/>
+            <tab/>
+            <ITEXT CH="Light +ve"/>
+            <tab/>
+            <ITEXT CH="5v"/>
+            <para/>
+            <ITEXT CH="16"/>
+            <tab/>
+            <ITEXT CH="Light –ve"/>
+            <tab/>
+            <ITEXT CH="GND"/>
+            <para/>
+            <para/>
+            <ITEXT CH="The following program demonstates the operation by counting up and down:"/>
+            <para/>
+            <para/>
+            <ITEXT CH="#!/usr/bin/env python"/>
+            <para/>
+            <ITEXT CH="# Basic LCD use via nanpy"/>
+            <para/>
+            <para/>
+            <ITEXT CH="from time import sleep"/>
+            <para/>
+            <ITEXT CH="from nanpy import Arduino"/>
+            <para/>
+            <ITEXT CH="from nanpy import serial_manager"/>
+            <para/>
+            <ITEXT CH="serial_manager.connect('/dev/ttyACM0')"/>
+            <para/>
+            <ITEXT CH="from nanpy import Lcd"/>
+            <para/>
+            <ITEXT CH="lcd = Lcd([7,6,5,4,3,2], [16,2]) #LCD set-up"/>
+            <para/>
+            <para/>
+            <ITEXT CH="print &quot;### Starting ###\n&quot;"/>
+            <para/>
+            <ITEXT CH="# Heading - top row"/>
+            <para/>
+            <ITEXT CH="lcd.printString(&quot;LCD Demo - Counting&quot;, 0,0)"/>
+            <para/>
+            <ITEXT CH="sleep(1)"/>
+            <para/>
+            <ITEXT CH="for i in range(0,21):"/>
+            <para/>
+            <ITEXT CH="    position = 4"/>
+            <para/>
+            <ITEXT CH="    if i &lt; 10:"/>
+            <para/>
+            <ITEXT CH="        position = position + 1"/>
+            <para/>
+            <ITEXT CH="# Clear 2nd row"/>
+            <para/>
+            <ITEXT CH="    lcd.printString(&quot;                &quot;, 0,1)"/>
+            <para/>
+            <ITEXT CH="    lcd.printString(i, position, 1)"/>
+            <para/>
+            <ITEXT CH="    i2 = 20 - i"/>
+            <para/>
+            <ITEXT CH="    position2 = 9"/>
+            <para/>
+            <ITEXT CH="    if i2 &lt; 10:"/>
+            <para/>
+            <ITEXT CH="        position2 = position2 + 1"/>
+            <para/>
+            <ITEXT CH="    lcd.printString(i2, position2, 1)   "/>
+            <para/>
+            <ITEXT CH="    sleep(0.7)"/>
+            <para/>
+            <ITEXT CH="print &quot;\n### FINISHED ###&quot;"/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Reading analogue values"/>
+            <para/>
+            <para/>
+            <ITEXT CH="The Arduino has 6 analogue ports for reading voltages between 0 and 5 volts with 10-bit resolution giving values from 0 to 1023.  The second circuit from the left of the photograph, between breadboard columns 30 and 40, shows the simplest analogue demonstration circuit.  It uses a 10K ohm potentiometer with the outer pins connected to GND and 5 volts. The central wiper pin is connected via the orange wire to pin A1 on the Arduino. This pin is also called pin 15. (A0 is 14, A1 is 15 …. A5 is 19.)"/>
+            <para/>
+            <para/>
+            <ITEXT CH="The following code demonstrates how to read analogue values in Python."/>
+            <para/>
+            <para/>
+            <ITEXT CH="#!/usr/bin/env python"/>
+            <para/>
+            <ITEXT CH="# Read values from Analogue pin A1"/>
+            <para/>
+            <ITEXT CH="from nanpy import Arduino"/>
+            <para/>
+            <ITEXT CH="from nanpy import serial_manager"/>
+            <para/>
+            <ITEXT CH="serial_manager.connect('/dev/ttyACM0')"/>
+            <para/>
+            <ITEXT CH="from time import sleep"/>
+            <para/>
+            <para/>
+            <ITEXT CH="pot = 15   # Pot on A1 - Analog input"/>
+            <para/>
+            <para/>
+            <ITEXT CH="print &quot;Turn the pot - 10 bit ADC input&quot;"/>
+            <para/>
+            <ITEXT CH="for i in range(0,40):"/>
+            <para/>
+            <ITEXT CH="    val = Arduino.analogRead(pot)"/>
+            <para/>
+            <ITEXT CH="    print val"/>
+            <para/>
+            <ITEXT CH="    sleep(0.3)"/>
+            <para/>
+            <para/>
+            <ITEXT CH="As you turn the spindle on the potentiometer the values change within the range 0 to 1023."/>
+            <para/>
+            <para/>
+            <ITEXT CH="You can connect many different components/devices to the analogue pins to read temperatures, and measure distances etc."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Once you start building more ambitious projects you will find that you can quickly run out of pins. As you will have seen, a liquid crystal display uses up 6 of your digital pins. Imagine that you were building a model lift. You need digital pins to control the motor, an LCD and several LEDS. You also need buttons to call the lift on each floor and others in the cage. One trick is to use a single analogue pin to monitor the 5 switches on the panel in the lift cage."/>
+            <para/>
+            <para/>
+            <ITEXT CH="The circuit is shown in the photograph in breadboard columns 40 to 61. It has six resistors in series and five button switches connecting the resistor junctions to GND. The circuit is connected to Arduino pin A1 via the yellow wire from the junction between the right most resistors."/>
+            <para/>
+            <para/>
+            <ITEXT CH="The circuit is shown below:"/>
+            <para/>
+            <ITEXT CH="                                          Pin A1 (15)"/>
+            <para/>
+            <ITEXT CH="                                             |"/>
+            <para/>
+            <ITEXT CH="   +---3K3---+---1K0---+---680R---+---330R---+---2K2------5v"/>
+            <para/>
+            <ITEXT CH="   |         |         |          |          |"/>
+            <para/>
+            <ITEXT CH="  Alarm    Close       0          1          2   Switch name"/>
+            <para/>
+            <ITEXT CH="   |         |         |          |          |"/>
+            <para/>
+            <ITEXT CH="  [772]   [490+-]    [322]      [134]       [0]  Analogue Value"/>
+            <para/>
+            <ITEXT CH="   |         |         |          |          |"/>
+            <para/>
+            <ITEXT CH="  GND--------+---------+----------+----------+"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Here the 2K2 ohm resistor acts as a pull up resistor to 5 volts. With no button pressed the reading from the analogue pin is 1023.If the button for floor 2 is pressed the junction is shorted to GND and the reading changes to 0, just like a digital switch. As each button is pressed in turn, from right to left, the resistance to GND increases (0, 330R, 1K0, 2K0, 5K3 Ohms) and the voltage at the main junction changes. Unfortunately, resistors with the same nominal value can vary significantly but still be within their quoted tolerance. It is not really worth trying to calculate the analogue value for the other switches as each board will be slightly different. It is much easier to re-run the last program a few times with the yellow wire connected to pin A1, press the buttons in turn and record the values for each button. My values are shown in the square brackets and listed in the program."/>
+            <para/>
+            <para/>
+            <ITEXT CH="There is usually at least one ‘difficult’ button whose value oscillates between two adjacent values. My reading for the ‘Close Door’ button was either 490 or 489. This problem is easily overcome by testing for a range between upper and lower limits rather than a specific value. There are very large gaps between the button values leaving plenty of room for the ‘fudge factor’."/>
+            <para/>
+            <para/>
+            <ITEXT CH="For example: (value &gt; 485 and value &lt; 495) rather than (value == 490)."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Here is the basic code to read the switches:"/>
+            <para/>
+            <para/>
+            <ITEXT CH="#!/usr/bin/env python"/>
+            <para/>
+            <ITEXT CH="# Read values 5 switch/resistor array on pin A1 (15)"/>
+            <para/>
+            <ITEXT CH="# Lift cage control panel simulation"/>
+            <para/>
+            <para/>
+            <ITEXT CH="from time import sleep"/>
+            <para/>
+            <ITEXT CH="from nanpy import Arduino"/>
+            <para/>
+            <ITEXT CH="from nanpy import serial_manager"/>
+            <para/>
+            <ITEXT CH="serial_manager.connect('/dev/ttyACM0')"/>
+            <para/>
+            <para/>
+            <ITEXT CH="pot = 15   # Pot on A1 - ADC input"/>
+            <para/>
+            <para/>
+            <ITEXT CH="# You may want to change these values to match your board"/>
+            <para/>
+            <ITEXT CH="#     or increase fudge value"/>
+            <para/>
+            <ITEXT CH="floor2 = 0"/>
+            <para/>
+            <ITEXT CH="floor1 = 134"/>
+            <para/>
+            <ITEXT CH="floor0 = 322"/>
+            <para/>
+            <ITEXT CH="close  = 490"/>
+            <para/>
+            <ITEXT CH="alarm  = 772"/>
+            <para/>
+            <ITEXT CH="fudge  = 5"/>
+            <para/>
+            <para/>
+            <ITEXT CH="print &quot;Press the buttons&quot;"/>
+            <para/>
+            <ITEXT CH="print &quot;\nCTRL-C to stop program\n&quot;"/>
+            <para/>
+            <para/>
+            <ITEXT CH="old_val = -1"/>
+            <para/>
+            <ITEXT CH="val = Arduino.analogRead(pot)"/>
+            <para/>
+            <ITEXT CH="while True:"/>
+            <para/>
+            <ITEXT CH="    try:   # Trapping CTRL-C"/>
+            <para/>
+            <ITEXT CH="        # Has val changed &gt; ADC 'wobble' ?"/>
+            <para/>
+            <ITEXT CH="        if abs(old_val - val) &gt; 3: "/>
+            <para/>
+            <ITEXT CH="            old_val = val"/>
+            <para/>
+            <ITEXT CH="            if val &lt; fudge:"/>
+            <para/>
+            <ITEXT CH="                print&quot;Floor 2&quot;"/>
+            <para/>
+            <ITEXT CH="            if val &gt; floor1 - fudge and val &lt; floor1 + fudge:"/>
+            <para/>
+            <ITEXT CH="                print&quot;Floor 1&quot;"/>
+            <para/>
+            <ITEXT CH="            if val &gt; floor0 - fudge and val &lt; floor0 + fudge:"/>
+            <para/>
+            <ITEXT CH="                print&quot;Floor 0&quot;"/>
+            <para/>
+            <ITEXT CH="            if val &gt; close - fudge and val &lt; close + fudge:"/>
+            <para/>
+            <ITEXT CH="                print&quot;Close doors&quot;"/>
+            <para/>
+            <ITEXT CH="            if val &gt; alarm - fudge and val &lt; alarm + fudge:"/>
+            <para/>
+            <ITEXT CH="                print&quot;Alarm&quot;"/>
+            <para/>
+            <para/>
+            <ITEXT CH="        val = Arduino.analogRead(pot)"/>
+            <para/>
+            <para/>
+            <ITEXT CH="    except KeyboardInterrupt:"/>
+            <para/>
+            <ITEXT CH="        print &quot;\nProgram interrupted by user. \n&quot;"/>
+            <para/>
+            <ITEXT CH="        break"/>
+            <para/>
+            <ITEXT CH="print &quot;*** Finished ***&quot;"/>
+            <para/>
+            <para/>
+            <ITEXT CH="This is an ‘endless loop’ program – lifts run all the time. Stopping it with CTRL-C normally results in a mess of red error messages. Notice how this has been trapped resulting in a ‘clean’ termination. "/>
+            <para/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Things to try"/>
+            <para/>
+            <para/>
+            <ITEXT CH="Extend the multiple buttons circuit with an extra button and resistor. Then change the program to allow for the extra floor."/>
+            <para/>
+            <para/>
+            <ITEXT CH="If you enjoy soldering you could transfer the five buttons and resistors onto a piece strip board – see photograph. Arrange four of the buttons in a diamond pattern to indicate’ Up’, ‘Down’, ‘Left’ and ‘Right’. Place the fifth button either in the centre of a large diamond or at the side of a small diamond for ‘OK’, ‘Stop’ or’ Fire’. The illustration shows, “one I made earlier”.  The copper strips are vertical on the back. Only one track was cut on the underside. The cut track is under the ‘Up’ button’s bottom, right corner and marked with the magenta blob. This will useful for the following exercises but the ‘in-line’ version will work as well."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Set up three or more LEDs with resistors (330R or more – we do not need them to be too bright) in a row on digital pins. "/>
+            <para/>
+            <ITEXT CH="a) Light the leftmost LED and make the light appear to move from left to right and back again by pressing two buttons - Right &amp; Left. Use Ctrl-C to stop the program."/>
+            <para/>
+            <ITEXT CH="b) Control the brightness of an LED by two buttons – Up &amp; Down. Use another button to stop the program."/>
+            <para/>
+            <ITEXT CH="c) Combine the first two ideas so that you can set the brightness of all the LEDs with 4 buttons. Use the other button to stop the program. Hint: flash the LED that is currently selected while you adjust its brightness. NB: the PWM pins are marked with ‘~’: 2, 5, 6, 9, 10 &amp; 11. "/>
+            <para/>
+            <para/>
+            <ITEXT CH="Modify the LCD counting program and control the two sets of numbers with the buttons rather than a counted loop. Use the one button pair to increase/decrease the left hand number on the display and another pair to control the right number independently. Stop the program if either number reaches 0."/>
+            <para/>
+            <para/>
+            <ITEXT CH="If you do not have an LCD you could write a similar program but output the two numbers as columns on your monitor – one line each time a button is pressed. Can you keep the tens and units lined up vertically? Stop program with CRTL-C, but trap the error messages."/>
+            <para/>
+            <para/>
+            <ITEXT CH="There is currently a forum on using the Arduino with Nanpy at:"/>
+            <para/>
+            <ITEXT CH="http://www.raspberrypi.org/phpBB3/viewtopic.php?p=368522#p368522"/>
+            <para/>
+            <para/>
+            <ITEXT CH="You can use it to ask for help from other users."/>
+            <para/>
+            <para/>
+            <ITEXT CH="You can contact me with email via arduinolink@outlook.com with feedback, suggestions and questions. I enjoy experimenting with hacking projects and robots and hope to encourage others to take up this great hobby (especially in Leicestershire, where I taught computing for 23 years. How about a Raspberry Jam? Lancashire is doing so much more!)."/>
+            <para/>
+            <para/>
+            <ITEXT CH="Thanks again to Andrea Stagi for producing Nanpy."/>
+            <para/>
+            <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="158.776216225559" WIDTH="612.283464566929" HEIGHT="64.0546498911986" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.123419363952213" LOCALSCY="0.123419363952213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../magpi-templates/generic-article/Fade_effect_002.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="11" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
