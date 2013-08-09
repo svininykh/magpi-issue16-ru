@@ -1,0 +1,311 @@
+A Pi and a Cup of java, Please!
+
+The main goal of this second article is to give you more elements of the Java programming language so you'll be able to write much more powerful programs.
+
+I first explain in detail the Java control-flow statements. Then, I focus on numbers, strings, and booleans, and I also include examples that combine them. With all these new elements you can write complex logic to your code. Well... let's go for it!
+
+Control-flow sentences
+
+On the first article we talked about two control flow statements: if and while. I know you already know, but let me refresh anyway. An if executes the included block only when the condition in between parenthesis is true. For example:
+
+ if (a > 3) { c = c + a; }
+
+This section of java will add a to c, only when a is greater than 3. The section in between round parenthesis is called the condition and must evaluate to true or false, i.e. it's a boolean expression (I'll explain booleans later in this article).
+
+An if can, additionally, include a section to be executed when the condition is false. For example:
+
+ if (score > 50) {
+   System.out.println("You won! :)");
+ } else  {
+   System.out.println("You lost. :(");
+ }
+
+The other statement we saw before was while.  The while statement executes the included block zero, one or many times, as long as the condition in it remains true. For example:
+
+ int f = 10;
+ while (f < 20) {
+   System.out.println(f);
+   f++;  
+ }
+
+This Java code will print all integer numbers bewteen 10 and 19. It won't print 20 because at that point the condition will not be true anymore. Ah... did you notice the fourth line? Good catch! The two + signs after a variable increase its value. That is a short way of typing:
+
+ f = f + 1;
+
+Similarly: 
+
+ f--;
+
+means to decrease the value of the variable and is equivalent to:
+
+ f = f - 1;
+
+Now, let's look at the for statement. A for is similar to a while statement, but it combines the condition, the starting point, and the change statement into one line. The previous example that showed the numbers between 10 and 19 can be also written using a for as:
+
+ for (int f = 10; f < 20; f++) {
+   System.out.println(f);
+ }
+
+Compare both examples. Yes, I would agree that a for statement looks more compact than a while. A while, though, can be easier to read some times.
+
+In a for, the section between parenthesis is divided in three parts: the first one is executed only once when starting; the second one is the condition to check on every cycle; the third one is to be executed at the end of every cycle.
+
+Now open your editor and try the following program:
+
+public class Countdown {
+
+  public static void main(String[] args)
+      throws InterruptedException {
+    for (int t = 10; t >= 1; t--) {
+      System.out.println("-> " + t);
+      Thread.sleep(1000);
+    }
+    System.out.println("-> Fire!");
+  }
+
+}
+
+Compile it using the javac command and run it using the java command (see previous article for details). This program will count down from 10 seconds down to zero and prints "Fire!". Do you see how the value of the variable t changes? We use the double minus sign here to decrease its value.
+
+Also, did you notice the line with Thread.sleep(1000);? That line makes the program wait for 1 second (1000 milliseconds) each time so the numbers don't show up all at once. This line requires an extra line right at the beginning that start with throw. Trust me on that line for now; I'll explain exceptions later on.
+
+Challenge #3: Create a new program Countup.java that will count from 1 to 20, every one second. Ah, when reaching 15, show a message saying "Five to go...".
+
+Last but not least, let's talk about the switch statement. A switch checks for the value of a variable and allows to execute different code for different values of it. For example:
+
+import java.util.Random;
+
+public class CardinalDirection {
+
+  public static void main(String[] args) {
+    Random r = new Random();
+    int dir = r.nextInt(4);
+    switch (dir) {
+    case 0:
+      System.out.println("North");
+      break;
+    case 1:
+      System.out.println("West");
+      break;
+    case 2:
+      System.out.println("South");
+      break;
+    default:
+      System.out.println("East");
+      break;
+    }
+  }
+
+}
+
+In this example an integer number is randomly chosen between 0 and 3 (four possible cases). The interesting part is that the number is not shown as a number, but as a cardinal direction. Each case statement specifies what to do if the variable has the specified value. Please note that I don't use a case for the number 3, but I use a default statement. It's always a good practice to use a default statement, so any unspecified value will be shown anyway.
+
+Well, that's it for now with control flow statements. Of course there are other more exotic ones like continue and do-while but they are less used and I'll leave them for you to study.
+
+Let's now move on to a totaly different subject.
+
+A little bit about Numbers
+
+Sooner or later you'll need to do some math, so here are the basics. In Java every numeric variable must be declared as one of the types built in the language itself. Java provides four integer types (without decimal places), two floating points (with decimal places) and two very high precision types. When using numbers you will declare the variable once, and then you can assign a value to it, many times if you want. For example:
+
+ int trees; // declaration
+ trees = 17665785; // assignment
+
+You can assign and reassign the value of the variable many times, but you must declare the variable only once. These two lines can be combined as:
+
+ int trees = 17665785; // declaration & assignment
+
+By the way, did you notice the //? The double slash allows you to write a comment. Anything in the line after it is ignored by Java, so you can add notes or reminders. These are typically very useful several months later, when you need to look at your program and you don't remember why you did something.
+
+Now, if you want to use integer numbers you have four options:
+
+ byte:  -128 to 127
+ short: -32768 to 32767
+ int:   -2,147,483,648 to 2,147,483,647
+ long:  -9,223,372,036,854,775,808 
+      to 9,223,372,036,854,775,807
+
+You'll probably use the third one (int) most of the time, unless you really need big numbers or small numbers. On the other hand, if you want decimal numbers (floating point) you have two options:
+
+ float:  ±1.401298e-45 to ±3.402823e+38
+ double: ±4.94065645841246e-324 
+      to ±1.79769313486231e+308
+
+Normally, if you want to do a lot of math you will probably prefer the type double (15-digit precision) over float (7-digit precision). 
+
+The four math operators are written as +, -, *, and /, and you can use parenthesis to group sections as you need. The following program shows examples of math operations:
+
+public class Numbers {
+
+  public static void main(String[] args) {
+    int x = 5;
+    System.out.println(7 + x * 3); // 22
+    System.out.println((7 + x) * 3); // 36
+    System.out.println(7 / 3); // 2
+    System.out.println(16 % 3); // 1 (remainder)
+    System.out.println(7.0 / 3.0); // 2.33333333
+    System.out.println(3.14159265 * x * x);
+  }
+
+}
+
+Notice that multiplications and divisions have priority over addition and subtraction, but these priorities can be changed using parenthesis.
+
+Need more math functions? Well, there is a class called Math that provides many math functions. For example a more complex formula like:
+ 
+can be written as:
+
+ double f = Math.abs(1.0 - Math.pow(x, 3.0)) /
+    (4.0 / 3.0 * Math.sqrt(y - Math.PI)));
+
+When dealing with floating point calculations make sure you write literal numbers with a decimal point: for example, instead of 3 write 3.0.
+
+The following program adds all numbers from 1 to 10 that cannot be divided by 3:
+
+public class Sum {
+
+  public static void main(String[] args) {
+    int total = 0;
+    for (int n = 1; n <= 10; n++) {
+      if (n % 3 != 0) {
+        total = total + n;
+      }
+    }
+    System.out.println("Total: " + total);
+  }
+
+}
+
+Running this program will show the numbers 1, 2, 4, 5, 7, 8, and 10, with a total of 37.
+
+Challenge #4: Change the previous program to also skip the numbers that can be divided by 4. With your change the program should now show 1, 2, 5, 7, and 10, with a total of 25. Tip: you'll need to add a second if statement.
+
+If you are curious, you can find the full list of math functions at http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html
+
+But... what if 15 decimal places is not enough for you? Well... BigInteger and BigDecimal come to the rescue. These classes can handle very high precision. A hundred decimal places, or a thousand, or a million if you want. Really? Yes, of course! For example:
+
+public class HighPrecision {
+
+  public static void main(String[] args) {
+    BigDecimal a = new BigDecimal("2.7182818284"
+      + "590452353602874713526624977572"
+      + "4709369995"); // 50 decimal places
+    BigDecimal b = new BigDecimal("3.1415926535"
+      + "89793238462643383279502884197169399"
+      + "375105820974944"); // 60 decimal places
+    System.out.println("e*pi=" +a.multiply(b));
+  }
+
+}
+
+Run this program and see for yourself. You'll get at least 50 digits of precision with it.
+
+A little bit about Strings
+
+You have seen strings many times so far in the example programs. A string is a sequence of letters, numbers and/or symbols (all called characters). Usually you see them as literals like "Hi John!". However, you can use them in more complex expressions, to search within them, to get sections of them, or when building bigger strings from several parts. For example, the + sign builds (concatenates) several strings into a single one, like in the example below:
+
+ String qty = "50";
+ String message = "I found " + qty + " books.";
+
+If you want to get a part of a string you use the substring method. Every letter (character) on a string has a position. The first one is 0, then 1, then 2 and so on. For example, to get the word "house" (position 4 to 8 in the following example) you'll write:
+
+ String line = "The house is blue.";
+ String word = line.substring(4, 8 + 1);
+
+Now, if you want to find where the word "house" is in the string you'll use indexOf:
+
+ String line = "The house is blue.";
+ int position = line.indexOf("house"); // 4
+ int red = line.indexOf("red)"; // -1
+
+Notice that indexOf is written with an upper case "O". In the last case, the word "red" is not found in the line of text and, therefore, java returns -1. 
+
+Also, to get the length of the string you use the method length() and to get a single character in a string you use the method charAt() as shown in the following example that prints a string letter by letter.
+
+public class LetterByLetter {
+
+  public static void main(String[] args) {
+    if (args.length == 0) {
+      System.out.println("Please type a word.");
+    } else {
+      String word = args[0];
+      for (int i = 0; i < word.length(); i++) {
+        System.out.println(word.charAt(i));
+      }
+    }
+  }
+
+}
+
+Once compiled using javac, run the program specifying a word you choose on the command line. For example:
+
+  java LetterByLetter telephone
+
+As I said in the previous article the variable args represents the parameters you type in the command line ("telephone" in this case). See how the program tells you if you forget to type a word.
+
+If you look at the for statement it uses both methods to first get the length of the string and then to get each character one by one.
+
+Anyway, strings have many more useful methods. The full list can be found at http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+
+Challenge #5: Change the previous program to show every letter in upper case. Tip: once you get the whole word, change it immediately to uppercase using one string method. Look for this method in the web page shown above.
+
+A little bit about Booleans
+
+Booleans are variables that can only have two values: true or false. They are very useful to use as indicators, or as conditions used inside the if, while or for statements. For example, let's declare a boolean variable;
+
+ boolean painted = false;
+
+Now, if you want to, you can change the value as in any other variable:
+
+ painted = true;
+
+or you can use it in a while statement:
+
+ while (painted) {
+   // do something
+ }
+
+You can make complex expression using booleans with ! (meaning NOT), && (meaning AND), and || (meaning OR). A ! returns the opposite of a value. An && returns true only if both sides are true, and a || returns true if either side is true. For example:
+
+ boolean a = true;
+ boolean b = false;
+
+ boolean c = !a; // false
+ boolean d = a || b; // true
+ boolean e = a && b; // false
+ boolean f = (!a && b)  || a; // true
+
+Also, numbers and strings can be compared to return a boolean. That boolean, in turn, can be used as a condition for an if, while or for, as you may have noticed in several examples before. For example:
+
+ int total = 156;
+ if (total > 100)  {
+   // do something
+ }
+
+The section total > 100 is a boolean expression, since its value as a whole is a boolean (either true or false). To compare two numbers you can use six operands:
+
+   ==        is equal to
+   !=        is different from
+   >         is greater than
+   <         is less than
+   >=        is greater or equal than
+   <=        is less or equal to
+
+All of them return a boolean, and as such you can combine them in any boolean operation as you wish. In the following example:
+
+ int sides = 6;
+ boolean painted = false;
+ if (sides >= 4 && !painted) {
+   // paint it!
+ }
+
+you can see a more complex condition.
+
+A final note
+
+I know I covered a lot of topics in this second article. It's a little bit more complex than the first one, but my goal was to give you as many tools as I could as soon as possible. With them you can now write basic and not so basic programs. You now have much more power in your hands.
+
+On the next article we will cover java methods, classes and objects, as well as the extensive Java  Class Library included in Java ...and we'll write a program to generate a random map.
+
+
+
