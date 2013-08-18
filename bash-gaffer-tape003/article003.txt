@@ -1,0 +1,28 @@
+#!/bin/bash
+with="avec"
+str="Raspberry pi with Linux"
+str_fr="${str/with/$with}"
+str_fr="${str_fr#Raspberry pi}"
+str_fr="tarte aux framboises$str_fr"
+str_fr="${str_fr%Linux}Raspbian"
+echo "$str_fr"
+#!/bin/bash
+# Needs LINUX version of expr
+distro="Raspbian Linux"
+search=" "
+offset=$(expr index "$distro" "$search")
+echo "String: \"$distro\""
+echo -n "String length: ${#distro}"
+echo ", found space at: $offset"
+echo "Substring: \"${distro:$offset}\""
+#!/bin/bash
+a=3
+b=2
+c=$(($a/$b))
+echo "$a / $b = $c"
+c=$(($a*$b))
+echo "$a x $b = $c"
+c=$(($a+$b))
+echo "$a + $b = $c"
+c=$(($b-$a))
+echo "$b - $a = $c"
