@@ -467,7 +467,7 @@
             <para/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" ./matrix4.py &quot;The yellow brown dog&quot;"/>
             <para ALIGN="0"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" echo &quot;The MagPi is great!&quot; | ./matrix4.py"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" echo &quot;The MagPi is great&quot; | ./matrix4.py"/>
             <para ALIGN="0"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" cat poem.txt | ./matrix4.py"/>
             <para ALIGN="0"/>
