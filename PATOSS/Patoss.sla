@@ -203,179 +203,177 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="346.469279131551" WIDTH="538.588317871094" HEIGHT="478.369293212891" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 478.369 538.588 478.369 538.588 478.369 538.588 478.369 0 478.369 0 478.369 0 478.369 0 478.369 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 478.369 538.588 478.369 538.588 478.369 538.588 478.369 0 478.369 0 478.369 0 478.369 0 478.369 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="26" BACKITEM="-1">
-            <ITEXT FONTSIZE="12" FEATURES="inherit shadowed" CH="The Pato Project"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit" CH="The Pato Project"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="At the start of July my friend and I came across a bird in the street that had apparently sustained an injury to his leg.  We took the bird, later named Pato, to the vet for review.  It was reported by the doctor that Pato had a broken leg requiring it being plastered and TLC for a week."/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <para ALIGN="3"/>
             <ITEXT FONTSIZE="12" CH="As I do not spend a great deal of time at home, the idea of setting up a system in order to monitor Pato was posed.  As my occupation is a System Engineer for Linux / Unix systems, I though it wouldn’t be so difficult to set-up a system by using a Raspberry Pi board in order to monitor Pato via Internet.  Thankfully I had a spare revion 2 Pi lying at home, and thus got to work."/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" FEATURES="inherit shadowed" CH="What to monitor and how to do it"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit" CH="What to monitor and how to do it"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONTSIZE="12" CH="The system I  would create had to be able to send a current picture from Pato’s cage, check the temperature of his environment and control the water level.  In order to meet these gols, I used a webcam for the pictures, a thermometer for the temperature and a liquid level sensor for the water level."/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" FEATURES="inherit shadowed" CH="Taking pictures"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit" CH="Taking pictures"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONTSIZE="12" CH="To set up the webcam was quite straightforward.  After plugging it into the USB port and powering up the Raspberry Pi I ran 'lsusb'.  This command command checks to see what USB devices the system detects and recognizes.  In my case the webcam was properly detected as:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="pi@raspberrypi ~ $ lsusb | grep C270"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="pi@raspberrypi ~ $ lsusb | grep C270"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="Bus 001 Device 006: ID 046d:0825 Logitech, Inc. Webcam C270"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="Bus 001 Device 006: ID 046d:0825 Logitech, Inc. Webcam C270"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="pi@raspberrypi ~ $"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="pi@raspberrypi ~ $"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="Once the webcam was properly detected, I had to enter some simple commands to install and configure motion:"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="sudo apt-get install -y motion"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="sudo apt-get install -y motion"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="After installation had completed, before starting it, I had to modify three parameters inside /etc/motion/motion.conf , giving them the following values:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="Daemon = OFF to ON"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="Daemon = OFF to ON"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="webcam_localhost = ON to OFF"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="webcam_localhost = ON to OFF"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="start_motion_daemon= &quot;no&quot; to “yes”"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="start_motion_daemon= &quot;no&quot; to “yes”"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="With those changes made I then ensured that the Raspberry Pi was streaming video by entering the following into a browser:"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="http://192.168.x.x:8081"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="http://192.168.x.x:8081"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="(Where x.x should be altered to match the end numbers from your IP address)"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" FEATURES="inherit shadowed" CH="Monitoring the temperature"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit" CH="Monitoring the temperature"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONTSIZE="12" CH="In order to check the temperature of Pato's environment, I bought a USB Temper thermometer via eBay.  It required more work than the webcam to get working."/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONTSIZE="12" CH="First, I had to ensure all the necessary dependencies were installed.  This was completed using the following command:"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="sudo apt-get install -y build-essential libusb-1.0.0 libusbdev"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="sudo apt-get install -y build-essential libusb-1.0.0 libusbdev"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="The latest version can be cloned from the temper binary via git:"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FONTSIZE="12" CH="git clone https://github.com/bitplane/temper.git"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="git clone https://github.com/bitplane/temper.git"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT FONTSIZE="12" CH="Once downloaded its can be compiled with:"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT CH="cd temper/make"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="cd temper/make"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT CH="And then, the new binary must be run using:"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT CH="sudo ./temper 16-Jul-2013 00:02,26.089081"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="sudo ./temper 16-Jul-2013 00:02,26.089081"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT CH="I prefer to get rid of the date and time.  This can be done using the following script:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="TEMP=`sudo /home/pi/temper/temper | awk '{ print $2 }' | cut-d, -f2 | cut -c1-5` echo &quot;$TEMP'C&quot;"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="TEMP=`sudo /home/pi/temper/temper | awk '{ print $2 }' | cut-d, -f2 | cut -c1-5` echo &quot;$TEMP'C&quot;"/>
+            <ITEXT CH="This must then be run using the command:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="pi@raspberrypi ~ $ ./temperatura.sh 25.63'C"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="This must then be ran using the command:"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT CH="pi@raspberrypi ~ $ ./temperatura.sh 25.63'C"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FEATURES="inherit shadowed" CH="Reading the liquid level sensor"/>
-            <para ALIGN="0"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit" CH="Reading the liquid level sensor"/>
+            <para ALIGN="3"/>
             <para ALIGN="0"/>
             <ITEXT CH="I had recently bought a PiFace board and felt that this would be a good opportunity to use it for the first time."/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT CH="It couldn’t be easier.  The liquid level sensor was connected to digital input zero. In order to check if there's water or not, I  ran the following script.  If there's enough water, it would return 1:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="import piface.pfio as pfio"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="import piface.pfio as pfio"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="pfio.init()"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="pfio.init()"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT CH="print pfio.digital_read(0)"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="print pfio.digital_read(0)"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT CH="And then, run it!"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="pi@raspberrypi ~ $ python boya.py 1"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="pi@raspberrypi ~ $ python boya.py 1"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT FEATURES="inherit shadowed" CH="Sending tweets from the Raspberry Pi"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" FEATURES="inherit" CH="Sending tweets from the Raspberry Pi"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT CH="Once everything was set-up from the software and hardware point of view, now was time to find out how to send tweets."/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT CH="I did open a Twitpic account in order to make things easier, so it just had to send an e-mail with an attached picture and the information I wanted to be posted. In order to do that, I wrote a really simple script:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="#!/bin/sh "/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="CPUTMP=`/home/pi/cpu_temp.sh`"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="#!/bin/sh "/>
-            <para ALIGN="0"/>
-            <ITEXT CH="CPUTMP=`/home/pi/cpu_temp.sh`"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="ENVTMP=`/home/pi/temperatura.sh`"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="ENVTMP=`/home/pi/temperatura.sh`"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="LIQUID=`python /home/pi/boya.py`"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="LIQUID=`python /home/pi/boya.py`"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="if [ ${LIQUID} -eq 1 ]; then"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="if [ ${LIQUID} -eq 1 ]; then"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="elif [ ${LIQUID} -eq 0 ]; then"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="elif [ ${LIQUID} -eq 0 ]; then"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="fi "/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="fi "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="SUBJECT=&quot;RPi temp: ${CPUTMP}. Room temp: ${ENVTMP}."/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="SUBJECT=&quot;RPi temp: ${CPUTMP}. Room temp: ${ENVTMP}."/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="${AGUA}. &quot; echo &quot;&quot; | mutt -a /tmp/motion/patoss.jpg -"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="${AGUA}. &quot; echo &quot;&quot; | mutt -a /tmp/motion/patoss.jpg -"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT CH="s &quot;`echo ${SUBJECT}`&quot; -- xxxx@twitpic.com"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="s &quot;`echo ${SUBJECT}`&quot; -- xxxx@twitpic.com"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
             <ITEXT CH="And this is what is being posted on Twitter:"/>
+            <para ALIGN="3"/>
+            <para ALIGN="0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="AGUA='Water level OK'"/>
             <para ALIGN="0"/>
             <para ALIGN="0"/>
-            <ITEXT CH="AGUA='Water level OK'"/>
-            <para ALIGN="0"/>
-            <para ALIGN="0"/>
-            <ITEXT CH="AGUA='Pato needs water'"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH="AGUA='Pato needs water'"/>
             <para ALIGN="0"/>
             <para/>
             <ITEXT CH="Well that concludes the project!  I am pleased to write that Pato is doing very well and I can work away from home, safe in the knowledge that he is well looked after. "/>
-            <trail/>
+            <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="35" BACKITEM="25">
@@ -416,7 +414,7 @@
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347091674805" YPOS="1838.39501953125" WIDTH="538.588317871094" HEIGHT="309.125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 309.125 538.588 309.125 538.588 309.125 538.588 309.125 0 309.125 0 309.125 0 309.125 0 309.125 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 309.125 538.588 309.125 538.588 309.125 538.588 309.125 0 309.125 0 309.125 0 309.125 0 309.125 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="26">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="128.347086614173" YPOS="489.337032243306" WIDTH="255.652913385827" HEIGHT="192.820448071654" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.591789151356081" LOCALSCY="0.591789151356081" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Pato.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 192.82 255.653 192.82 255.653 192.82 255.653 192.82 0 192.82 0 192.82 0 192.82 0 192.82 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 192.82 255.653 192.82 255.653 192.82 255.653 192.82 0 192.82 0 192.82 0 192.82 0 192.82 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="128.347086614173" YPOS="471.833095235432" WIDTH="255.652913385827" HEIGHT="192.820448071654" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.591789151356081" LOCALSCY="0.591789151356081" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Pato.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 192.82 255.653 192.82 255.653 192.82 255.653 192.82 0 192.82 0 192.82 0 192.82 0 192.82 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 192.82 255.653 192.82 255.653 192.82 255.653 192.82 0 192.82 0 192.82 0 192.82 0 192.82 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
