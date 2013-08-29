@@ -1,0 +1,16 @@
+
+Welcome to issue 16 of The MagPi.
+
+It's back... Skutter returns to the pages of The MagPi and this time it's more sensitive!  Morphy takes you in detail through expanding the number of inputs and outputs which can be controlled from your Pi using I2C.  This will allow you to add more sensors to your bot whilst driving the base unit.
+
+In this issue we have some great hardware projects like Jorge's Patos system monitoring his injured bird, we look at controlling stepper motors and learn how to scroll text on the Pi Matrix.
+
+We have more on connecting your Pi to an Arduino in Tony's great article on driving a liquid crystal display plus an amazing look into connecting your Pi to Logi-Pi by Michael Jones.
+
+After all that, we supplement the above with some fantastic software articles.  
+
+We are pleased to provide more on programming in Java by looking at control flow sentences, numbers, strings and booleans with Vladimir.  For the cherry on the cake we have more from Bash gaffer tape and building and parsing XML in python.
+
+Hope you enjoy.
+
+Ash Stone
