@@ -279,7 +279,7 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" print &quot;\n### FINISHED ###&quot;"/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Reading analogue values"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Reading analogue values"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT CH="The Arduino has 6 analogue ports for reading voltages between 0 and 5 volts with 10-bit resolution giving values from 0 to 1023.  The second circuit from the left in the photograph in the header of this article, between breadboard columns 30 and 40, shows the simplest analogue demonstration circuit.  It uses a 10K ohm potentiometer with the outer pins connected to GND and 5 volts. The central wiper pin is connected via the orange wire to pin A1 on the Arduino. This pin is also called pin 15. (A0 is 14, A1 is 15 …. A5 is 19.)"/>
