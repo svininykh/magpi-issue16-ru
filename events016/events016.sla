@@ -133,7 +133,7 @@
             <para PARENT="Body Text Cent"/>
             <ITEXT FONTSIZE="12" CH="When:  "/>
             <ITEXT FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" CH="Saturday 21st September 2013, 12.30pm"/>
-            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH=" until 6pm"/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH=" until 6.00pm"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT FONTSIZE="12" CH="Where:  "/>
             <ITEXT FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" CH="Institute of Astronomy, Madingley Road, Cambridge"/>
@@ -183,13 +183,13 @@
             <para PARENT="Body Text Cent"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT CH="When:  "/>
-            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Saturday 28th September @ 10.30am until 4.30pm"/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Saturday 28th September, 10.30am until 4.30pm"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT CH="Where:  "/>
             <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="At-Bristol Science Centre, Anchor Road, Harbourside, Bristol, BS1 5DB, UK"/>
             <para PARENT="Body Text" ALIGN="1"/>
             <para PARENT="Body Text" ALIGN="1"/>
-            <ITEXT FONT="FreeSans Regular" CH="Th event will include live demonstrations, workshops and hands on tutorial sessions. Sponsored by ARM who will also be in attendance."/>
+            <ITEXT FONT="FreeSans Regular" CH="The event will include live demonstrations, workshops and hands on tutorial sessions. Sponsored by ARM who will also be in attendance."/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" http://pibootcampsept2013.eventbrite.com"/>
             <trail ALIGN="1" LINESP="14"/>
             <PageItemAttributes/>
