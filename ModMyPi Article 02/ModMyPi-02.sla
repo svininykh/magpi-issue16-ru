@@ -26,12 +26,12 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONT="FreeSans Regular" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="underline" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -199,13 +199,13 @@
             <ITEXT CH="The Pi-Lite is a versatile, plug and play, 126 LED (9x14 Grid) matrix display for the Raspberry Pi. Each pixel is individually addressable - so you can display scrolling text, graphics and bar graphs; basically anything that can fit in 126 pixels! It’s a great starting place for doing something visual with your Raspberry Pi."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="The Pi-Lite comes as a complete, fully assembled board that requires no soldering, and it’s designed to plug straight into the Raspberry Pi’s GPIO ports. The matrix is controlled by an on-board ATmega 328 processor with pre-loaded software and works equally well with a Raspberry Pi using GPIO, or PC, Mac or Linux machine via the on-board FTDI connector. You’ll find a short beginner’s guide to set up on the Raspberry Pi below!"/>
+            <ITEXT CH="The Pi-Lite comes as a complete, fully assembled board that requires no soldering, and it’s designed to plug straight into the Raspberry Pi’s GPIO ports. The matrix is controlled by an on-board ATMega 328 processor with pre-loaded software and works equally well with a Raspberry Pi using GPIO, or PC, Mac or Linux machine via the on-board FTDI connector. You’ll find a short beginner’s guide to set up on the Raspberry Pi below."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 1. Setting up the Raspberry Pi for Basic Pi-Lite Functions!"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 1 - setting up the Raspberry Pi for basic Pi-Lite functions!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="The Pi Lite is as Ciseco product, so requires a custom Wheezy Image to be loaded onto an SD card and used for this task.  This image has reconfigured GPIO pins for Serial access, and the Minicom terminal emulator that’s used to send and receive characters from the serial port pre-installed. You can set all this up manually on your version of Raspian; however for ease of this tutorial, we’ll use the custom image which can be downloaded:"/>
+            <ITEXT CH="The Pi-Lite is as Ciseco product, so requires a custom Wheezy Image to be loaded onto an SD card and used for this task.  This image has reconfigured GPIO pins for Serial access, and the Minicom terminal emulator that’s used to send and receive characters from the serial port pre-installed. You can set all this up manually on your version of Raspian; however for ease of this tutorial, we’ll use the custom image which can be downloaded:"/>
             <para ALIGN="3"/>
             <para/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="http://openmicros.org/Download/2013-05-25-wheezy-raspbian-ciseco.img.zip"/>
@@ -214,19 +214,19 @@
             <ITEXT CH="Simply unzip the image and load it to an SD card like the standard Raspian distribution."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 2. The Fun Stuff!"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 2 - the fun stuff!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="Make sure your Raspberry Pi is switched off, and then plug the Pi Lite in. It sits on top of the GPIO ports within the footprint of the Pi, and fits neatly inside the ModMyPi Raspberry Pi Case. Boot your Pi up, log in and you’ll be presented with the Raspberry Pi Command Line. The Pi Lite will auto-boot with a very cool sequence too!"/>
+            <ITEXT CH="Make sure your Raspberry Pi is switched off, and then plug the Pi-Lite in. It sits on top of the GPIO ports within the footprint of the Pi, and fits neatly inside the ModMyPi Raspberry Pi Case. Boot your Pi up, log in and you’ll be presented with the Raspberry Pi Command Line. The Pi-Lite will auto-boot with a very cool sequence too!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="To access the Pi Lite module via Minicom and send scrolling text messages, enter the command:"/>
+            <ITEXT CH="To access the Pi-Lite module via Minicom and send scrolling text messages, enter the command:"/>
             <para ALIGN="3"/>
             <para/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="minicom -b 9600 -o -D /dev/ttyAMA0"/>
             <para/>
             <para/>
-            <ITEXT CH="Now, simply by typing, you can send any text to the Pi Lite which will be scrolled across automatically. It’s also possible to enter Minicom’s command mode to change various settings, such as the scroll speed or pixel state."/>
+            <ITEXT CH="Now, simply by typing, you can send any text to the Pi-Lite which will be scrolled across automatically. It’s also possible to enter Minicom’s command mode to change various settings, such as the scroll speed or pixel state."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT CH="To enter command mode type $$$ (Three dollar signs) which will stop all scrolling, and Minicom responds with “OK”. All commands must be sent as one string in UPPER case, and terminated with carriage return (pressing enter). After receiving and carrying out a command, the Pi-Lite leaves command mode, and returns to scroll mode. If a command is not received within a few seconds or a command is inputted incorrectly, the command control will be terminated and the Pi-Lite will return to scroll mode. "/>
@@ -247,7 +247,7 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="https://www.modmypi.com/pi-lite-raspberry-pi-led-matrix"/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Step 3. Running Scripts!"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 3 - running scripts!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT CH="What’s great about the Pi-Lite, is that it enables you to run custom Python scripts, and subsequently show graphics, repeated text strings, read the Weather, run a real-time Twitter feed or display anything else you can imagine! I’ll show you how to download and run some example Python scripts, but you can always edit them or write your own if you’re feeling adventurous! Please note, use upper case in the commands where stated!"/>
