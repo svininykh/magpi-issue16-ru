@@ -199,25 +199,25 @@
             <ITEXT CH="The Pi-Lite is a versatile, plug and play, 126 LED (9x14 Grid) matrix display for the Raspberry Pi. Each pixel is individually addressable - so you can display scrolling text, graphics and bar graphs; basically anything that can fit in 126 pixels! It’s a great starting place for doing something visual with your Raspberry Pi."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="The Pi-Lite comes as a complete, fully assembled board that requires no soldering, and it’s designed to plug straight into the Raspberry Pi’s GPIO ports. The matrix is controlled by an on-board ATMega 328 processor with pre-loaded software and works equally well with a Raspberry Pi using GPIO, or PC, Mac or Linux machine via the on-board FTDI connector. You’ll find a short beginner’s guide to set up on the Raspberry Pi below."/>
+            <ITEXT CH="The Pi-Lite comes as a complete, fully assembled board that requires no soldering and it’s designed to plug straight into the Raspberry Pi’s GPIO ports. The matrix is controlled by an on-board ATMega 328 processor with pre-loaded software and works equally well with a Raspberry Pi using GPIO or with a PC, Mac or Linux machine via the on-board FTDI connector. You’ll find a short beginner’s guide to set the Pi-Lite up on the Raspberry Pi below."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 1 - setting up the Raspberry Pi for basic Pi-Lite functions!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="The Pi-Lite is as Ciseco product, so requires a custom Wheezy Image to be loaded onto an SD card and used for this task.  This image has reconfigured GPIO pins for Serial access, and the Minicom terminal emulator that’s used to send and receive characters from the serial port pre-installed. You can set all this up manually on your version of Raspian; however for ease of this tutorial, we’ll use the custom image which can be downloaded:"/>
+            <ITEXT CH="The Pi-Lite is as Ciseco product, so requires a custom Wheezy Image to be loaded onto an SD card and used for this task.  This image has reconfigured GPIO pins for Serial access, and the Minicom terminal emulator that’s used to send and receive characters from the serial port pre-installed. You can set all this up manually on your version of Raspbian; however for ease of this tutorial, we’ll use the custom image which can be downloaded:"/>
             <para ALIGN="3"/>
             <para/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="http://openmicros.org/Download/2013-05-25-wheezy-raspbian-ciseco.img.zip"/>
             <para/>
             <para/>
-            <ITEXT CH="Simply unzip the image and load it to an SD card like the standard Raspian distribution."/>
+            <ITEXT CH="Simply unzip the image and load it to an SD card like the standard Raspbian distribution."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" CH="Step 2 - the fun stuff!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT CH="Make sure your Raspberry Pi is switched off, and then plug the Pi-Lite in. It sits on top of the GPIO ports within the footprint of the Pi, and fits neatly inside the ModMyPi Raspberry Pi Case. Boot your Pi up, log in and you’ll be presented with the Raspberry Pi Command Line. The Pi-Lite will auto-boot with a very cool sequence too!"/>
+            <ITEXT CH="Make sure your Raspberry Pi is switched off and then plug the Pi-Lite in. It sits on top of the GPIO ports within the footprint of the Raspberry Pi, and fits neatly inside a ModMyPi case. Boot your Raspberry Pi up, log in and you’ll be presented with the Raspberry Pi command line. The Pi-Lite will auto-boot with a very cool sequence too!"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT CH="To access the Pi-Lite module via Minicom and send scrolling text messages, enter the command:"/>
