@@ -418,7 +418,7 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In this example an integer number is randomly chosen between zero and three (four possible cases). The interesting part is that the number is not shown as a number, but as a cardinal direction. Each case statement specifies what to do if the variable has the specified value. Please note that I don't use a case for the number three, but I use a default statement. It's always a good practice to use a default statement, so any unspecified value will be shown anyway."/>
+            <ITEXT CH="In this example, an integer number is randomly chosen between zero and three (four possible cases). The interesting part is that the number is not shown as a number, but as a cardinal direction. Each case statement specifies what to do if the variable has the specified value. Please note that I don't use a case for the number three, but I use a default statement. It's always a good practice to use a default statement, so any unspecified value will be shown anyway."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Well, that's it for now with control flow statements. Of course there are other more exotic ones like "/>
@@ -439,7 +439,7 @@
             <ITEXT CH="A little bit about numbers"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Sooner or later you'll need to do some math, so here are the basics.  In Java every numeric variable must be declared as one of the types built in the language itself.  Java provides four integer types (without decimal places), two floating points (with decimal places) and two very high precision types. When using numbers you will declare the variable once, and then you can assign a value to it, many times if you want. For example:"/>
+            <ITEXT CH="Sooner or later you'll need to do some maths, so here are the basics.  In Java every numeric variable must be declared as one of the types built in the language itself.  Java provides four integer types (without decimal places), two floating points (with decimal places) and two very high precision types. When using numbers you need to declare the variable once, and then you can assign a value to it. For example:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" int trees; // declaration"/>
@@ -484,10 +484,18 @@
             <ITEXT FONTSIZE="9" CH="      to ±1.79769313486231e+308"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Normally, if you want to do a lot of math you will probably prefer the type double (15-digit precision) over float (7-digit precision). "/>
+            <ITEXT CH="Normally, if you want to do a lot of maths you will probably prefer the type double (15-digit precision) over float (7-digit precision). "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The four math operators are written as +, -, *, and /, and you can use parenthesis to group sections as you need. The following program shows examples of math operations:"/>
+            <ITEXT CH="The four maths operators are written as "/>
+            <ITEXT FONT="Monaco Regular" CH="+"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="-"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="*"/>
+            <ITEXT CH=", and "/>
+            <ITEXT FONT="Monaco Regular" CH="/"/>
+            <ITEXT CH=", and you can use parenthesis to group sections as you need. The following program shows examples of maths operations:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public class Numbers {"/>
@@ -520,10 +528,12 @@
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Notice that multiplications and divisions have priority over addition and subtraction, but these priorities can be changed using parenthesis."/>
+            <ITEXT CH="Notice that multiplications and divisions have priority over addition and subtraction, but these priorities can be changed using parentheses."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Need more math functions? Well, there is a class called Math that provides many math functions. For example a more complex formula like:"/>
+            <ITEXT CH="Need more maths functions? Well, there is a class called "/>
+            <ITEXT FONT="Monaco Regular" CH="Math"/>
+            <ITEXT CH=" that provides many maths functions. For example a more complex formula like:"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" "/>
             <para PARENT="Body text"/>
@@ -535,7 +545,7 @@
             <ITEXT FONTSIZE="9" CH="    (4.0 / 3.0 * Math.sqrt(y - Math.PI)));"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When dealing with floating point calculations make sure you write literal numbers with a decimal point: for example, instead of 3 write 3.0."/>
+            <ITEXT CH="When dealing with floating point calculations make sure that you write literal numbers with a decimal point: for example, instead of 3 write 3.0."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The following program adds all numbers from 1 to 10 that cannot be divided by 3:"/>
@@ -572,14 +582,18 @@
             <ITEXT CH="Challenge #4: Change the previous program to also skip the numbers that can be divided by 4. With your change the program should now show 1, 2, 5, 7, and 10, with a total of 25. Tip: you'll need to add a second if statement."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If you are curious, you can find the full list of math functions at "/>
+            <ITEXT CH="If you are curious, you can find the full list of math functions at: "/>
             <para PARENT="Body text"/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://docs.oracle.com/javase/7/docs/"/>
             <para PARENT="Body text"/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="api/java/lang/Math.html"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="But... what if 15 decimal places is not enough for you? Well... BigInteger and BigDecimal come to the rescue. These classes can handle very high precision. A hundred decimal places, or a thousand, or a million if you want. Really? Yes, of course! For example:"/>
+            <ITEXT CH="But... what if 15 decimal places is not enough for you? Well... "/>
+            <ITEXT FONT="Monaco Regular" CH="BigInteger"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="BigDecimal"/>
+            <ITEXT CH=" come to the rescue. These classes can handle very high precision. A hundred decimal places, or a thousand, or a million if you want. Really? Yes, of course! For example:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" import java.math.BigDecimal;"/>
@@ -618,7 +632,11 @@
             <ITEXT CH="A little bit about strings"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="You have seen strings many times so far in the example programs. A string is a sequence of letters, numbers and/or symbols (all called characters). Usually you see them as literals like &quot;Hi John!&quot;. However, you can use them in more complex expressions, to search within them, to get sections of them, or when building bigger strings from several parts. For example, the + sign builds (concatenates) several strings into a single one, like in the example below:"/>
+            <ITEXT CH="You have seen strings many times so far in examples given in these tutorials. A string is a sequence of letters, numbers and/or symbols (all called characters). Usually you see them as literals like "/>
+            <ITEXT FONT="Monaco Regular" CH="&quot;Hi John!&quot;"/>
+            <ITEXT CH=". However, you can use them in more complex expressions, to search within them, to get sections of them, or when building bigger strings from several parts. For example, the "/>
+            <ITEXT FONT="Monaco Regular" CH="+"/>
+            <ITEXT CH=" sign builds (concatenates) several strings into a single one, like in the example below:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" String qty = &quot;50&quot;;"/>
@@ -626,7 +644,11 @@
             <ITEXT FONTSIZE="9" CH=" String message = &quot;I found &quot; + qty + &quot; books.&quot;;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If you want to get a part of a string you use the substring method. Every letter (character) on a string has a position. The first one is 0, then 1, then 2 and so on. For example, to get the word &quot;house&quot; (position 4 to 8 in the following example) you'll write:"/>
+            <ITEXT CH="If you want to get a part of a string you use the "/>
+            <ITEXT FONT="Monaco Regular" CH="substring"/>
+            <ITEXT CH=" method. Every letter (character) on a string has a position. The first one is 0, then 1, then 2 and so on. For example, to get the word "/>
+            <ITEXT FONT="Monaco Regular" CH="&quot;house&quot;"/>
+            <ITEXT CH=" (position 4 to 8 in the following example) you'll write:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" String line = &quot;The house is blue.&quot;;"/>
@@ -634,7 +656,11 @@
             <ITEXT FONTSIZE="9" CH=" String word = line.substring(4, 8 + 1);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now, if you want to find where the word &quot;house&quot; is in the string you'll use indexOf:"/>
+            <ITEXT CH="Now, if you want to find where the word "/>
+            <ITEXT FONT="Monaco Regular" CH="&quot;house&quot;"/>
+            <ITEXT CH=" is in the string you can use "/>
+            <ITEXT FONT="Monaco Regular" CH="indexOf"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" String line = &quot;The house is blue.&quot;;"/>
@@ -644,10 +670,20 @@
             <ITEXT FONTSIZE="9" CH=" int red = line.indexOf(&quot;red)&quot;; // -1"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Notice that indexOf is written with an upper case &quot;O&quot;. In the last case, the word &quot;red&quot; is not found in the line of text and, therefore, java returns -1. "/>
+            <ITEXT CH="Notice that "/>
+            <ITEXT FONT="Monaco Regular" CH="indexOf"/>
+            <ITEXT CH=" is written with an upper case "/>
+            <ITEXT FONT="Monaco Regular" CH="&quot;O&quot;"/>
+            <ITEXT CH=". In the last case, the word "/>
+            <ITEXT FONT="Monaco Regular" CH="&quot;red&quot;"/>
+            <ITEXT CH=" is not found in the line of text and, therefore, Java returns -1. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Also, to get the length of the string you use the method length() and to get a single character in a string you use the method charAt() as shown in the following example that prints a string letter by letter."/>
+            <ITEXT CH="Also, to get the length of the string you use the method "/>
+            <ITEXT FONT="Monaco Regular" CH="length()"/>
+            <ITEXT CH=" and to get a single character in a string you use the method "/>
+            <ITEXT FONT="Monaco Regular" CH="charAt()"/>
+            <ITEXT CH=" as shown in the following example that prints a string letter by letter."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" public class LetterByLetter {"/>
@@ -689,7 +725,9 @@
             <para PARENT="Body text"/>
             <ITEXT CH="As I said in the previous article, the variable "/>
             <ITEXT FONT="Monaco Regular" CH="args"/>
-            <ITEXT CH=" represents the parameters you type in the command line (&quot;telephone&quot; in this case). See how the program tells you if you forget to type a word."/>
+            <ITEXT CH=" represents the parameters you type in the command line ("/>
+            <ITEXT FONT="Monaco Regular" CH="&quot;telephone&quot;"/>
+            <ITEXT CH=" in this case). See how the program tells you if you forget to type a word."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="If you look at the for statement it uses both methods to first get the length of the string and then to get each character one by one."/>
@@ -1061,6 +1099,10 @@
         <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="104.363149606299" YPOS="4361.66929131811" WIDTH="36.8503937007874" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="38"/>
             <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="532.935433070867" YPOS="2195.14236220473" WIDTH="134" HEIGHT="40.0229921259829" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.48" LOCALSCY="0.48" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="equation.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 134 0 134 0 134 0 134 0 134 40.023 134 40.023 134 40.023 134 40.023 0 40.023 0 40.023 0 40.023 0 40.023 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 134 0 134 0 134 0 134 0 134 40.023 134 40.023 134 40.023 134 40.023 0 40.023 0 40.023 0 40.023 0 40.023 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
