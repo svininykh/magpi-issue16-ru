@@ -1,18 +1,16 @@
-A Pi and a Cup of java, Please!
+Это вторая статья об использование Raspberry Pi для программирования на языке Java, прочитав её вы узнает больше о конструкциях этого языка и сможете попробовать написать более сложные программы. Также она может оказаться полезной тем, кто хочет узнать о языке С, так как основной синтаксис Java совпадает с синтаксисом С.
 
-The main goal of this second article is to give you more elements of the Java programming language so you'll be able to write much more powerful programs.
+В начале данной статьи я подробнее опишу управляющие конструкции. А дальше я перейду к описанию числовых, строковых и логических типов данных, приведя примеры их использования. С учетом всего этого в наши примеры программ будет добавлена более сложная логика выполнения. Ну что-же, давайте приступать к работе!
 
-I first explain in detail the Java control-flow statements. Then, I focus on numbers, strings, and booleans, and I also include examples that combine them. With all these new elements you can write complex logic to your code. Well... let's go for it!
+Подробнее об управляющих конструкциях
 
-Control-flow sentences
-
-On the first article we talked about two control flow statements: if and while. I know you already know, but let me refresh anyway. An if executes the included block only when the condition in between parenthesis is true. For example:
+В первой статье вышедшей в MagPi #14 мы познакомились с двумя управляющими конструкциями: if и while. Я знаю, что вы об этом помните, но на всякий случай напоминаю. Блок конструкция if будет выполнен, только в случае, если значение логического выражения в круглых скобках истина. Для примера:
 
  if (a > 3) { c = c + a; }
 
-This section of java will add a to c, only when a is greater than 3. The section in between round parenthesis is called the condition and must evaluate to true or false, i.e. it's a boolean expression (I'll explain booleans later in this article).
+Складываем a и c только в случае, когда значения a больше 3. Выражение в круглых скобках, называемое состоянием, может принимать значение true(истина) или false(ложь), т.е. тип данных boolean(Подробнее о логическом типе данных ниже по тексту статьи).
 
-An if can, additionally, include a section to be executed when the condition is false. For example:
+Конструкция if может включать в себя блок запускаемый при значении состояния false. Для примера:
 
  if (score > 50) {
    System.out.println("You won! :)");
@@ -20,7 +18,7 @@ An if can, additionally, include a section to be executed when the condition is 
    System.out.println("You lost. :(");
  }
 
-The other statement we saw before was while.  The while statement executes the included block zero, one or many times, as long as the condition in it remains true. For example:
+Следующая рассмотренная нами конструкция была while. Исполнен блок конструкции while может быть только в случаях, когда состояние выражения в скобках будет равно true, т.е. это может быть один и более раз, а может быть и не разу. Для примера:
 
  int f = 10;
  while (f < 20) {
@@ -28,270 +26,279 @@ The other statement we saw before was while.  The while statement executes the i
    f++;  
  }
 
-This Java code will print all integer numbers bewteen 10 and 19. It won't print 20 because at that point the condition will not be true anymore. Ah... did you notice the fourth line? Good catch! The two + signs after a variable increase its value. That is a short way of typing:
+Целые числа от 10 до 19 будут печататься пока переменная f не станет равна 20 и результат выражения изменится на false. Ещё, вы обратили внимание на червёртую строку? Хорошо, если заметили. Два знака плюс после переменной а увеличивают её на 1. Это короткий вид записи:
 
  f = f + 1;
 
-Similarly: 
+Аналогично:
 
  f--;
 
-means to decrease the value of the variable and is equivalent to:
+Знаки минус уменьшают значение присваиваемое переменной f. Иначе это будет выглядеть так:
 
  f = f - 1;
 
-Now, let's look at the for statement. A for is similar to a while statement, but it combines the condition, the starting point, and the change statement into one line. The previous example that showed the numbers between 10 and 19 can be also written using a for as:
+Теперь разберём конструкцию for. Конструкция for похожа на while, но для неё в одной строке можно сочетать критерии выполнения и выражение изменяющие значение переменной. По этому перебор чисел от 10 до 19 можно записать используя for:
 
  for (int f = 10; f < 20; f++) {
    System.out.println(f);
  }
 
-Compare both examples. Yes, I would agree that a for statement looks more compact than a while. A while, though, can be easier to read some times.
+Да, данный вариант выглядит компактнее чем пример с while. Однако while, в некоторых случаях, может быть удобнее для выполнения циклов.
 
-In a for, the section between parenthesis is divided in three parts: the first one is executed only once when starting; the second one is the condition to check on every cycle; the third one is to be executed at the end of every cycle.
+Секция в скобках для конструкции for разделена на три части. Первая для инициализации переменной в начале, вторая для проверки переменной при каждом повторе цикла, третья для изменения переменной в конце выполнения каждого цикла.
 
-Now open your editor and try the following program:
+Теперь откроем ваш редактор и создадим новую программу:
 
-public class Countdown {
+ public class Countdown {
 
-  public static void main(String[] args)
+   public static void main(String[] args)
       throws InterruptedException {
-    for (int t = 10; t >= 1; t--) {
-      System.out.println("-> " + t);
-      Thread.sleep(1000);
-    }
-    System.out.println("-> Fire!");
-  }
+     for (int t = 10; t >= 0; t--) {
+       System.out.println("-> " + t);
+       Thread.sleep(1000);
+     }
+     System.out.println("-> Fire!");
+   }
 
-}
+ }
 
-Compile it using the javac command and run it using the java command (see previous article for details). This program will count down from 10 seconds down to zero and prints "Fire!". Do you see how the value of the variable t changes? We use the double minus sign here to decrease its value.
+Компиллируем её командой javac и запускаем java(подробнее в предыдущей статье). Эта программа будет отсчитывать 10 секунд после чего напечатает "Fire!". Как программа изменяет переменную t? Двойной минус уменьшает значение t от 10 до 0. Но зачем тогда понадобилась строка Thread.sleep(1000);? Она создаёт в программе задержку в 1 секунду(1000 миллисекунд) на каждом шаге цикла. Используя метод Thread.sleep, вы делаете задержку только в рамках блока for. Сейчас оставим всё как есть, об обработке исключений я расскажу позже.
 
-Also, did you notice the line with Thread.sleep(1000);? That line makes the program wait for 1 second (1000 milliseconds) each time so the numbers don't show up all at once. This line requires an extra line right at the beginning that start with throw. Trust me on that line for now; I'll explain exceptions later on.
+Усложним задачу #3: Создадим новую программу Countup.java для счёта от 1 до 20 с задержкой в одну секунду. И когда счёт дойдёт до 15 выводим сообщение "Five to go...".
 
-Challenge #3: Create a new program Countup.java that will count from 1 to 20, every one second. Ah, when reaching 15, show a message saying "Five to go...".
+Ну и напоследок ещё раз взглянем на switch. Конструкция switch проверяет значения переменной и в зависимости от того, чему равна переменная в круглых скобках, выполняет код после двоеточия. Пример:
 
-Last but not least, let's talk about the switch statement. A switch checks for the value of a variable and allows to execute different code for different values of it. For example:
+ import java.util.Random;
 
-import java.util.Random;
+ public class CardinalDirection {
 
-public class CardinalDirection {
+   public static void main(String[] args) {
+     Random r = new Random();
+     int dir = r.nextInt(4);
+     switch (dir) {
+     case 0:
+       System.out.println("North");
+       break;
+     case 1:
+       System.out.println("West");
+       break;
+     case 2:
+       System.out.println("South");
+       break;
+     default:
+       System.out.println("East");
+       break;
+     }
+   }
 
-  public static void main(String[] args) {
-    Random r = new Random();
-    int dir = r.nextInt(4);
-    switch (dir) {
-    case 0:
-      System.out.println("North");
-      break;
-    case 1:
-      System.out.println("West");
-      break;
-    case 2:
-      System.out.println("South");
-      break;
-    default:
-      System.out.println("East");
-      break;
-    }
-  }
+ }
 
-}
+В этом примере целое число генерируется случайно в диапазоне от 0 до 3. Но, что интересно, значение числа не показывается, оно нужно только для указания. Каждый из блоков выполняется только? если совпало значение переменной с значением после case. Заметьте я не стал ставить case для числа 3, использовал конструкцию default. Это хороший пример того, что лучше всегда ставить default, что-бы при любом не совпадающем значении выбирался этот блок команд.
 
-In this example an integer number is randomly chosen between 0 and 3 (four possible cases). The interesting part is that the number is not shown as a number, but as a cardinal direction. Each case statement specifies what to do if the variable has the specified value. Please note that I don't use a case for the number 3, but I use a default statement. It's always a good practice to use a default statement, so any unspecified value will be shown anyway.
+Хорошо, ну вот и всё что я хотел рассказать об управляющих конструкциях. Конечно есть и другие более экзотические конструкции, такие как continue или do-while, но они нетак часто используются и я оставлю их вам, на самостоятельное изучение. 
 
-Well, that's it for now with control flow statements. Of course there are other more exotic ones like continue and do-while but they are less used and I'll leave them for you to study.
+Ну, а теперь можно перейти к совершенно другой теме изучения Java.
 
-Let's now move on to a totaly different subject.
+Пара бит о числах
 
-A little bit about Numbers
-
-Sooner or later you'll need to do some math, so here are the basics. In Java every numeric variable must be declared as one of the types built in the language itself. Java provides four integer types (without decimal places), two floating points (with decimal places) and two very high precision types. When using numbers you will declare the variable once, and then you can assign a value to it, many times if you want. For example:
+Рано или поздно вам нужны будут математические расчёты, в этой главе даны основы с чего необходимо будет их начинать изучать. В Java каждая числовая переменная, это один из базовых типов языка. В Java четыре целых типа(без десятичных разрядов), два с плавающей запятой(с десятичными разрядами) и два высокой точности. Для использования в программе вы объявляете переменную один раз, затем по ходу выполнения программы меняете её значения. Для примера:
 
  int trees; // declaration
  trees = 17665785; // assignment
 
-You can assign and reassign the value of the variable many times, but you must declare the variable only once. These two lines can be combined as:
+Но вы можете сразу объявив переменную присвоить ей значение, для этого две строки объединим в одну:
 
- int trees = 17665785; // declaration & assignment
+ // declaration & assignment
+ int trees = 17665785;
 
-By the way, did you notice the //? The double slash allows you to write a comment. Anything in the line after it is ignored by Java, so you can add notes or reminders. These are typically very useful several months later, when you need to look at your program and you don't remember why you did something.
+Вы заметили //? Две косые черты обозначают начало комментария, всё что идёт после них Java игнорирует. Таким способом вы можете после них оставлять любые свои заметки и напоминания по выполнению программы, что-бы через пару месяцев или даже лет вспомнить, как ваша программа должна работать.
 
-Now, if you want to use integer numbers you have four options:
+А теперь диапазон доступных значений для четырёх типов целых переменных:
 
- byte:  -128 to 127
- short: -32768 to 32767
- int:   -2,147,483,648 to 2,147,483,647
- long:  -9,223,372,036,854,775,808 
-      to 9,223,372,036,854,775,807
+ byte:  от -128 до 127
+ short: от -32768 до 32767
+ int:   от -2 147 483 648 до 2,147,483,647
+ long:  от -9 223 372 036 854 775 808 
+         до 9 223 372 036 854 775 807
 
-You'll probably use the third one (int) most of the time, unless you really need big numbers or small numbers. On the other hand, if you want decimal numbers (floating point) you have two options:
+Чаще вам понадобится третий тип(int). Но если вам нужны будут числа с десятичными дробями(с плавающей запятой), в Java есть два типа данных:
 
- float:  ±1.401298e-45 to ±3.402823e+38
- double: ±4.94065645841246e-324 
-      to ±1.79769313486231e+308
+ float:  от ±1.401298e-45 до ±3.402823e+38
+ double: от ±4.94065645841246e-324 
+      до ±1.79769313486231e+308
 
-Normally, if you want to do a lot of math you will probably prefer the type double (15-digit precision) over float (7-digit precision). 
+Обычно для математических расчетов отдают предпочтение типу double (15 знаков после запятой), чем типу float (7 знаков после запятой).
 
-The four math operators are written as +, -, *, and /, and you can use parenthesis to group sections as you need. The following program shows examples of math operations:
+В Java четыре арифметических оператора  +, -, * и /, и ещё круглые скобки для выставления приоритетов вычисления. Ниже в программе представлены расчёты при помощи этих операторов:
 
-public class Numbers {
+ public class Numbers {
 
-  public static void main(String[] args) {
-    int x = 5;
-    System.out.println(7 + x * 3); // 22
-    System.out.println((7 + x) * 3); // 36
-    System.out.println(7 / 3); // 2
-    System.out.println(16 % 3); // 1 (remainder)
-    System.out.println(7.0 / 3.0); // 2.33333333
-    System.out.println(3.14159265 * x * x);
-  }
+   public static void main(String[] args) {
+     int x = 5;
+     System.out.println(7 + x * 3); // 22
+     System.out.println((7 + x) * 3); // 36
+     System.out.println(7 / 3); // 2
+     // 1 (remainder) 
+     System.out.println(16 % 3);
+     // 2.33333333
+     System.out.println(7.0 / 3.0);
+     System.out.println(3.14159265 * x * x);
+   }
 
-}
+ }
 
-Notice that multiplications and divisions have priority over addition and subtraction, but these priorities can be changed using parenthesis.
+Операции умножения и деления имеют приоритет перед сложением и вычитанием. Обратите внимание на действие операторов / и % при делении целых чисел, если в первом случае(оператор /) после деления осталась только целая часть, то во втором случае(оператор %) наоборот целая часть была отброшена, а в результате остался остаток 1 от деления 7 на 3.
 
-Need more math functions? Well, there is a class called Math that provides many math functions. For example a more complex formula like:
+Вам нужны ещё математические функции? Хорошо, вызывайте класс Math. Пример вот эта формулы:
  
-can be written as:
+В Java она будет выглядеть так:
 
  double f = Math.abs(1.0 - Math.pow(x, 3.0)) /
     (4.0 / 3.0 * Math.sqrt(y - Math.PI)));
 
-When dealing with floating point calculations make sure you write literal numbers with a decimal point: for example, instead of 3 write 3.0.
+Когда мы записываем целые и дробные числа, то мы выделяем это точкой. Например 3 целое, а 3.0 дробное.
 
-The following program adds all numbers from 1 to 10 that cannot be divided by 3:
+Следующая программа выводить все числа от 1 до 10, не делящиеся без остатка на 3:
 
-public class Sum {
+ public class Sum {
 
-  public static void main(String[] args) {
-    int total = 0;
-    for (int n = 1; n <= 10; n++) {
-      if (n % 3 != 0) {
-        total = total + n;
-      }
-    }
-    System.out.println("Total: " + total);
-  }
+   public static void main(String[] args) {
+     int total = 0;
+     for (int n = 1; n <= 10; n++) {
+       if (n % 3 != 0) {
+         total = total + n;
+         System.out.println(total);
+       }
+     }
+     System.out.println("Total: " + total);
+   }
+ }
 
-}
+В итоге получим 1, 2, 4, 5, 7, 8, 10 и их сумму 37.
 
-Running this program will show the numbers 1, 2, 4, 5, 7, 8, and 10, with a total of 37.
+Усложним задачу #4: Изменим последнюю программу и выведем на экран числа не делящиеся без остатка на 4.
 
-Challenge #4: Change the previous program to also skip the numbers that can be divided by 4. With your change the program should now show 1, 2, 5, 7, and 10, with a total of 25. Tip: you'll need to add a second if statement.
+Если вам нужны подробности какие ещё функции доступны в классе Math: 
+http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html
 
-If you are curious, you can find the full list of math functions at http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html
+Но что делать, если 15 знаков после запятой не достаточно? Тогда вам нужны типы BigInteger и BigDecimal, это классы для проведения расчётов с очень высокой точностью. Если необходимо, то сто, тысячу или миллион знаков после запятой. Пример:
 
-But... what if 15 decimal places is not enough for you? Well... BigInteger and BigDecimal come to the rescue. These classes can handle very high precision. A hundred decimal places, or a thousand, or a million if you want. Really? Yes, of course! For example:
+ import java.math.BigDecimal;
 
-public class HighPrecision {
+ public class HighPrecision {
 
-  public static void main(String[] args) {
-    BigDecimal a = new BigDecimal("2.7182818284"
+   public static void main(String[] args) {
+     BigDecimal a = new BigDecimal("2.7182818284"
       + "590452353602874713526624977572"
       + "4709369995"); // 50 decimal places
-    BigDecimal b = new BigDecimal("3.1415926535"
+     BigDecimal b = new BigDecimal("3.1415926535"
       + "89793238462643383279502884197169399"
-      + "375105820974944"); // 60 decimal places
-    System.out.println("e*pi=" +a.multiply(b));
-  }
+      + "375105820974944"); // 60 dec. places
+     System.out.println("e*pi="
+      + a.multiply(b));
+   }
 
-}
+ }
 
-Run this program and see for yourself. You'll get at least 50 digits of precision with it.
+Запустите программу и вы всё увидите сами.
 
-A little bit about Strings
+Пара бит о строках
 
-You have seen strings many times so far in the example programs. A string is a sequence of letters, numbers and/or symbols (all called characters). Usually you see them as literals like "Hi John!". However, you can use them in more complex expressions, to search within them, to get sections of them, or when building bigger strings from several parts. For example, the + sign builds (concatenates) several strings into a single one, like in the example below:
+У вас уже была возможность в каждом из наших примеров познакомится с использованием строк. Тип String, это последовательность букв, чисел и символов. Самый простой пример "Hi John!". Но чаще всего строки используются для поиска участков текста или компоновки больших сообщений из нескольких частей. Для этого можно использовать знак +, он объединит несколько строк в одну:
 
  String qty = "50";
  String message = "I found " + qty + " books.";
 
-If you want to get a part of a string you use the substring method. Every letter (character) on a string has a position. The first one is 0, then 1, then 2 and so on. For example, to get the word "house" (position 4 to 8 in the following example) you'll write:
+Если надо получить часть строки, то используем метод substring. У каждого символа строки есть положение. Нумерация идёт 0. В следующем примере надо получить слово "house", его символы расположены от 4 до 8 позиции:
 
  String line = "The house is blue.";
  String word = line.substring(4, 8 + 1);
 
-Now, if you want to find where the word "house" is in the string you'll use indexOf:
+Ну, а если надо узнать, где именно начало слова "house", тогда применяем indexOf:
 
  String line = "The house is blue.";
  int position = line.indexOf("house"); // 4
  int red = line.indexOf("red)"; // -1
 
-Notice that indexOf is written with an upper case "O". In the last case, the word "red" is not found in the line of text and, therefore, java returns -1. 
+Обратите внимание indexOf пишется с заглавной "O". В последней строке примера мы пытаемся найти слов "red", но его нет и метод нам вернул -1. 
 
-Also, to get the length of the string you use the method length() and to get a single character in a string you use the method charAt() as shown in the following example that prints a string letter by letter.
+Узнать длину строки можно с помощью метода length(). Для получения отдельных символов используем charAt(), следующий пример показывает, как разложить строку на символы и по буквенно вывести их на экран.
 
-public class LetterByLetter {
+ public class LetterByLetter {
 
-  public static void main(String[] args) {
-    if (args.length == 0) {
-      System.out.println("Please type a word.");
-    } else {
-      String word = args[0];
-      for (int i = 0; i < word.length(); i++) {
-        System.out.println(word.charAt(i));
-      }
-    }
-  }
+   public static void main(String[] args) {
+     if (args.length == 0) {
+       System.out.println("Please type"
+        + " a word.");
+     } else {
+       String word = args[0];
+       for (int i = 0; i < word.length(); i++){
+         System.out.println(word.charAt(i));
+       }
+     }
+   }
 
-}
+ }
 
-Once compiled using javac, run the program specifying a word you choose on the command line. For example:
+После компилляции javac, запустим программу указав командной строке слово после имени нашего класса.
 
   java LetterByLetter telephone
 
-As I said in the previous article the variable args represents the parameters you type in the command line ("telephone" in this case). See how the program tells you if you forget to type a word.
+Как я уже говорил в прошлой статье, через переменную args введённая при запуске строка передаётся в вашу программу (в данном примере это "telephone"). Попробуйте не вводить это слово и результат выполнения будет другой. Управляющие конструкции обеспечивают работу программы так, что с начало получаем размер строки и только потом по порядку выбираем буквы.
 
-If you look at the for statement it uses both methods to first get the length of the string and then to get each character one by one.
+Для работы с строками существует много методов. Более подробно это описано в документации http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
-Anyway, strings have many more useful methods. The full list can be found at http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+Усложним задачу #5: Изменим предыдущий пример и сделаем каждую букву заглавной. Подсказка: используйте метод делающий сразу все буквы строки заглавными, этот метод можно найти в документации по ссылке выше.
 
-Challenge #5: Change the previous program to show every letter in upper case. Tip: once you get the whole word, change it immediately to uppercase using one string method. Look for this method in the web page shown above.
+Пара бит о логике
 
-A little bit about Booleans
-
-Booleans are variables that can only have two values: true or false. They are very useful to use as indicators, or as conditions used inside the if, while or for statements. For example, let's declare a boolean variable;
+Логический тип boolean может иметь только два варианта значения переменной: true или false. Он чаще всего используется как индикатор или как переключатель для управляющих конструкций if, while или for. Пример объявления логической переменной:
 
  boolean painted = false;
 
-Now, if you want to, you can change the value as in any other variable:
+А так изменяем её значение:
 
  painted = true;
 
-or you can use it in a while statement:
+Или используем для while:
 
  while (painted) {
    // do something
  }
 
-You can make complex expression using booleans with ! (meaning NOT), && (meaning AND), and || (meaning OR). A ! returns the opposite of a value. An && returns true only if both sides are true, and a || returns true if either side is true. For example:
+Ещё можно для логических переменных применять операторы ! (NOT), && (AND) и || (OR). Оператор ! возвращает обратное значение переменной. Оператор && возвращает true, если обе части выражения имеют значени true, а оператор || возвращает true, если хотя-бы одно из них равно true. Пример:
 
  boolean a = true;
  boolean b = false;
-
+ 
  boolean c = !a; // false
  boolean d = a || b; // true
  boolean e = a && b; // false
  boolean f = (!a && b)  || a; // true
 
-Also, numbers and strings can be compared to return a boolean. That boolean, in turn, can be used as a condition for an if, while or for, as you may have noticed in several examples before. For example:
+В будущем вам могут встретится операторы & и |. Это тоже операторы AND и OR, но для числовых переменных. Но версия операторов && и || более эффективна так как нет разницы в расположении операндов. В следующем примере вы можете, что места расположения операндов результат не зависит:
+
+ boolean g = a || b; // true
+ boolean h = b && a; // false
+
+Числовые и строковые переменные также могут возвратить результат типа boolean. Это результат сравнения для управляющих конструкций. Пример:
 
  int total = 156;
  if (total > 100)  {
    // do something
  }
 
-The section total > 100 is a boolean expression, since its value as a whole is a boolean (either true or false). To compare two numbers you can use six operands:
+Выражение в скобках сравнивает переменную total, если total больше 100, результат будет true, иначе false. Для сравнения двух чисел вы можете применить следующие шесть операторов:
 
-   ==        is equal to
-   !=        is different from
-   >         is greater than
-   <         is less than
-   >=        is greater or equal than
-   <=        is less or equal to
+   ==        равно
+   !=        не равно
+   >         больше
+   <         меньше
+   >=        больше или равно
+   <=        меньше или равно
 
-All of them return a boolean, and as such you can combine them in any boolean operation as you wish. In the following example:
+Все возвращаемые значения будут типа boolean, и вы можете их комбинировать с другими операторами типа boolean, для примера:
 
  int sides = 6;
  boolean painted = false;
@@ -299,13 +306,8 @@ All of them return a boolean, and as such you can combine them in any boolean op
    // paint it!
  }
 
-you can see a more complex condition.
+Заключение
 
-A final note
+В эту статью вошло несколько тем, и она получилась более сложной чем первая, но я постарался сделать так, чтобы её прочтения вы быстрее освоили основы Java.
 
-I know I covered a lot of topics in this second article. It's a little bit more complex than the first one, but my goal was to give you as many tools as I could as soon as possible. With them you can now write basic and not so basic programs. You now have much more power in your hands.
-
-On the next article we will cover java methods, classes and objects, as well as the extensive Java  Class Library included in Java ...and we'll write a program to generate a random map.
-
-
-
+В следующей статье мы познакомимся с методами, классами и объектами Java, с некоторыми библиотеками классов входящих в Java. После чего вы сможете сделать программу генерирующую карту.
